@@ -16,9 +16,7 @@
 title: IdealaRealo
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi there! I'm a Wannabe Game Designer and Programmer. IdealaRealo is my brand.
-  I'm currently learning everything that can be useful to me to make Video Games...
-  and gaining some other skills on the topics that intrigue me.
+  Video Game Design, Art, Programming and Everything
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: idealarealo.github.io
 url: "https://idealarealo.github.io" # the base hostname & protocol for your site, e.g. http://example.com

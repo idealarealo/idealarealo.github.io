@@ -78,7 +78,7 @@ table#mainframe tr:nth-child(3) td:nth-child(3) {
 }
 @font-face {
 	font-family: "Wintermute";
-	src: url('../fnt/wintermu.ttf') format('truetype');
+	src: url('../fnt/wintermute.ttf') format('truetype');
 }
 @font-face {
 	font-family: "Teen";

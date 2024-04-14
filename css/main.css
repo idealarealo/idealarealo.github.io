@@ -1,0 +1,113 @@
+/* main.css - (c)2024 IdealaRealo */
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+	background: url(../img/red-velvet.jpg);
+	background-repeat: repeat;
+}
+div#body2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: radial-gradient(ellipse, rgba(1,1,1,0), rgba(1,1,1,0.5));
+	z-index: -1;
+}
+div#mainglass {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: radial-gradient(ellipse, rgba(1,1,1,0) 10%, rgba(1,1,1,0.4));
+	z-index: 100;
+}
+table#mainframe {
+	--tilemap-padding-x: calc(rem(rem(100vw, 64px) + 63px, 64px));
+	--tilemap-padding-y: calc(rem(100vh, 64px));
+	width: calc(100% - var(--tilemap-padding-x));
+	height: calc(100% - var(--tilemap-padding-y));
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+	margin-left: calc(var(--tilemap-padding-x) / 2);
+}
+table#mainframe tr:nth-child(1), table#mainframe tr:nth-child(3) {
+	height: 64px;
+}
+table#mainframe tr:nth-child(2) {
+	height: auto;
+}
+table#mainframe tr:nth-child(1) td:nth-child(1) {
+	width: 62px;
+}
+table#mainframe tr:nth-child(1) td:nth-child(3) {
+	width: 64px;
+}
+table#mainframe tr:nth-child(1) td:nth-child(2) {
+	width: auto;
+}
+table#mainframe tr:nth-child(1) td:nth-child(1) {
+	background: url(../img/gold-pattern-0.png);
+	background-repeat: no-repeat;
+}
+table#mainframe tr:nth-child(1) td:nth-child(2),
+table#mainframe tr:nth-child(3) td:nth-child(2) {
+	background: url(../img/gold-pattern-1-5.png);
+	background-repeat: repeat-x;
+}
+table#mainframe tr:nth-child(1) td:nth-child(3) {
+	background: url(../img/gold-pattern-2.png);
+	background-repeat: no-repeat;
+}
+table#mainframe tr:nth-child(2) td:nth-child(1),
+table#mainframe tr:nth-child(2) td:nth-child(3) {
+	background: url(../img/gold-pattern-3-7.png);
+	background-repeat: repeat-y;
+}
+table#mainframe tr:nth-child(2) td:nth-child(2) {
+	text-align: center;
+	vertical-align: middle;
+}
+table#mainframe tr:nth-child(3) td:nth-child(1) {
+	background: url(../img/gold-pattern-6.png);
+	background-repeat: no-repeat;
+}
+table#mainframe tr:nth-child(3) td:nth-child(3) {
+	background: url(../img/gold-pattern-4.png);
+	background-repeat: no-repeat;
+}
+@font-face {
+	font-family: "Wintermute";
+	src: url('../fnt/wintermu.ttf') format('truetype');
+}
+@font-face {
+	font-family: "Teen";
+	src: url('../fnt/Teen.otf') format('opentype');
+}
+h1 {
+	font: normal 60px "Wintermute", "Times New Roman", serif;
+	color: #cda73c;
+	text-shadow: -1px -1px 1px #f3ea6f, 1px 2px 2px #171b04;
+	margin: 0px;
+}
+h6 {
+	color: #cda73c;
+	font: normal 18px "Teen", sans-serif;
+	text-shadow: 1px 1px 1px #171b04;
+	margin-top: 0px;
+}
+.footnote {
+	float: right;
+	margin-top: -40px;
+	color: #f3ea6f;
+	font: normal 10px "Calibri", sans-serif;
+	text-shadow: 1px 1px 1px #171b04;
+	opacity: 0.80;
+}
+.quote {
+	width: 66%;
+	margin: auto;
+	color: #cda73c;
+	font: italic 18px "Times New Roman", serif;
+	text-shadow: 1px 1px 1px #171b04;
+}

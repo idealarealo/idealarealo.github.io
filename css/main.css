@@ -95,17 +95,17 @@ h1 {
 
 }
 @keyframes scroll-gold-bg {
-	from {background-position: 399px 0px;}
-	to {background-position: 0px 399px;}
+	from {background-position: 199px 0px;}
+	to {background-position: 0px 199px;}
 }
 h1>p {
 	font: normal 60px "Wintermute", "Times New Roman", serif;
 	background-image: url(../img/envmap_gold.jpg);
 	background-repeat: repeat;
-	background-size: 400px;
+	background-size: 200px;
 	background-clip: text;
-	background-position: 399px 0px;
-	animation: 15s linear 0s infinite running scroll-gold-bg;
+	background-position: 199px 0px;
+	animation: 10s linear 0s infinite running scroll-gold-bg;
 	text-fill-color: transparent;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;

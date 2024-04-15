@@ -18,7 +18,7 @@ div#mainglass {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: radial-gradient(ellipse, rgba(1,1,1,0) 10%, rgba(1,1,1,0.4));
+	background: radial-gradient(ellipse, rgba(1,1,1,0) 33%, rgba(1,1,1,0.8) 133%);
 	z-index: 100;
 }
 table#mainframe {
@@ -89,6 +89,34 @@ h1 {
 	color: #cda73c;
 	text-shadow: -1px -1px 1px #f3ea6f, 1px 2px 2px #171b04;
 	margin: 0px;
+	display: block;
+	position: relative;
+	text-align: center;
+
+}
+@keyframes scroll-gold-bg {
+	from {background-position: 399px 0px;}
+	to {background-position: 0px 399px;}
+}
+h1>p {
+	font: normal 60px "Wintermute", "Times New Roman", serif;
+	background-image: url(../img/envmap_gold.jpg);
+	background-repeat: repeat;
+	background-size: 400px;
+	background-clip: text;
+	background-position: 399px 0px;
+	animation: 15s linear 0s infinite running scroll-gold-bg;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+	text-shadow: none;
+	margin: 0px;
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 0px;
 }
 h6 {
 	color: #cda73c;

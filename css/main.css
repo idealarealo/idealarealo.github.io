@@ -135,7 +135,7 @@ h6 {
 }
 .quote {
 	width: 66%;
-	margin: auto 0 auto .4em;
+	margin: 0 auto .4em auto;
 	color: #cda73c;
 	font: italic 18px "Times New Roman", serif;
 	text-shadow: 1px 1px 1px #171b04;

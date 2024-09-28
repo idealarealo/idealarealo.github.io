@@ -20,6 +20,7 @@ div#mainglass {
 	height: 100%;
 	background: radial-gradient(ellipse, rgba(1,1,1,0) 33%, rgba(1,1,1,0.8) 133%);
 	z-index: 100;
+	pointer-events: none;
 }
 table#mainframe {
 	--tilemap-padding-x: calc(rem(rem(100vw, 64px) + 63px, 64px));
@@ -134,8 +135,11 @@ h6 {
 }
 .quote {
 	width: 66%;
-	margin: auto;
+	margin: auto 0 auto .4em;
 	color: #cda73c;
 	font: italic 18px "Times New Roman", serif;
 	text-shadow: 1px 1px 1px #171b04;
+}
+a:link, a:visited {
+	color: inherit;
 }
